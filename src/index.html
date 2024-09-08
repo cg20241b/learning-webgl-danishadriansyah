@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rectangle Graphic</title>
+    <style>
+        body {
+            background-color: black;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        #rectangle {
+            width: calc(100vw - 40px); /* Adjust width to account for margin */
+            height: calc(100vh - 40px); /* Adjust height to account for margin */
+            border: 5px solid white;
+            margin: 20px;
+            box-sizing: border-box; /* Include border in the element's total width and height */
+            background-color: transparent; /* Ensure the rectangle is not filled */
+        }
+    </style>
+</head>
+<body>
+    <div id="rectangle"></div>
+    <script>
+        // JavaScript can be used to dynamically manipulate the rectangle if needed
+        // For now, it just displays the rectangle defined in CSS
+    </script>
+</body>
+</html>
